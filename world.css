@@ -1,1 +1,78 @@
-/* Add your own styles */
+header
+{
+    background-color: #529dcf;
+    color:  white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    padding-bottom: 2px;
+}
+
+body
+{
+   background-image: url("world-map-wallpaper-8.jpg");
+   margin: 0;
+   color: white;
+}
+form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+#lookup
+{
+    margin-left: 500px;
+    width: 150px;
+    border-radius: 5px;
+    background-color:   #529dcf;
+    border-color:    #529dcf;
+    border-style: solid;
+    color: white;
+}
+#lookup_Cities
+{
+    margin-left: 1px;
+    width: 150px;
+    border-radius: 5px;
+    background-color:   #529dcf;
+    border-color:    #529dcf;
+    border-style: solid;
+    color: white;
+}
+
+/* code from https://www.w3schools.com/html/html_tables.asp
+my apologies sir, I'm extremely tired from all the group projects and assignemnts that I have to do*/
+
+table {
+    margin-top: 30px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color:  #529dcf;
+  }
+
+tr:nth-child(odd){
+    background-color: #076fb4;
+}  
+
+input
+{
+   width: 1250px;
+   height: 40px;
+   border-radius: 5px;
+   border-color: white;
+   border-style: solid;
+}
